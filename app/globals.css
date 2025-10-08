@@ -2,31 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --ring: 0 0% 0%;
-}
-
+/* Optional small polish */
+:root { --ring: 0 0% 0%; }
 * { -webkit-tap-highlight-color: transparent; }
 
 body {
-  @apply bg-gradient-to-b from-white via-brand-turq/8 to-brand-blue/5 text-brand-ink antialiased;
+  @apply antialiased; /* keep font smoothing only */
 }
 
-a { @apply underline-offset-2 hover:underline; }
-
-.card {
-  @apply bg-white/90 backdrop-blur rounded-2xl shadow-soft border border-white/60;
-}
-
-.btn {
-  @apply inline-flex items-center gap-2 rounded-xl border px-4 py-2 bg-white hover:bg-white/80 transition;
-}
-
-.badge {
-  @apply inline-flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-medium bg-white/70;
-}
-
-/* sticky sidebar on desktop */
-.toc-sticky {
-  @apply hidden lg:block lg:sticky lg:top-24 lg:h-[calc(100vh-6rem)] overflow-y-auto pr-2;
-}
