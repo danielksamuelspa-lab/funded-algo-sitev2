@@ -1,0 +1,21 @@
+<!-- Funded Algorithmic Trader — minimalist brand cross favicon -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle in turquoise pearl -->
+  <circle cx="50" cy="50" r="48" fill="#7AD9D5" />
+
+  <!-- Outer ring in warm gold -->
+  <circle cx="50" cy="50" r="46" fill="none" stroke="#F5C518" stroke-width="3"/>
+
+  <!-- Simple cross design -->
+  <path
+    d="M45 20 h10 v25 h25 v10 h-25 v25 h-10 v-25 h-25 v-10 h25 z"
+    fill="#0B63B6"
+  />
+
+  <!-- Subtle inner highlight to make it feel premium -->
+  <path
+    d="M47 22 h6 v56 h-6 z M22 47 h56 v6 h-56 z"
+    fill="white"
+    opacity="0.1"
+  />
+</svg>
