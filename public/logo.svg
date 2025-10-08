@@ -1,0 +1,13 @@
+<!-- Brand cross logo (blue · gold · turquoise-pearl) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- soft turquoise backdrop -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#7AD9D5"/>
+  <!-- gold border -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#F5C518" stroke-width="3"/>
+
+  <!-- deep-blue cross -->
+  <path d="M28 10h8v20h20v8H36v20h-8V38H8v-8h20z" fill="#0B63B6"/>
+
+  <!-- subtle highlight -->
+  <path d="M30 12h4v40h-4zM12 30h40v4H12z" fill="white" opacity=".12"/>
+</svg>
