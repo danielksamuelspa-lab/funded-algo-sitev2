@@ -1,17 +1,13 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
-import Navbar from "../components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Funded Algorithmic Trader",
   description: "Forex & Gold roadmap, daily plan, strategies, and resources.",
-  icons: {
-    icon: "/favicon.svg", // ✅ ensures the new cross logo appears in browser tab
-  },
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({
@@ -21,11 +17,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gradient-to-b from-white via-brand-turq/5 to-brand-blue/10 text-brand-ink antialiased">
-        {children}
+      <body className="min-h-screen flex flex-col bg-gradient-to-b from-white via-brand-turq/5 to-brand-blue/10 text-brand-ink antialiased">
+        <Navbar />
+        <main className="flex-1">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
 }
+
 
 
